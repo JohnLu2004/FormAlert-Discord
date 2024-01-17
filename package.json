@@ -1,0 +1,27 @@
+{
+  "name": "formalert-discord",
+  "version": "1.0.0",
+  "description": "Server used to listen to google form notifications and put notifications of specific servers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnLu2004/FormAlert-Discord.git"
+  },
+  "author": "John and Arjun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JohnLu2004/FormAlert-Discord/issues"
+  },
+  "homepage": "https://github.com/JohnLu2004/FormAlert-Discord#readme",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0"
+  }
+}
